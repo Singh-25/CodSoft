@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="2style.css">
+</head>
+<body>
+    <header>
+    <div class="navbar">
+                <div class="all">
+        <div class="menu">
+            <a href="#"> Home </a>
+            <a href="#"> About </a>
+            <a href="#"> Skills </a> 
+            <a href="#">  Projects</a>
+            <a href="#"> Contact </a>
+        </div>
+        </div>
+</div>
+</header>
+<section>
+<div class="content">
+    <div class="textbox">
+        <h2> Hello! my name is </h2>
+        <h3> <span> Stuti Singh </span></h3>
+        <h1> and i am a Student </h1>
+    </div>
+    <div class="img">
+    <img src="p.png" class="code">
+</div> 
+</div>
+</section>
+<br> 
+<section>
+    <div class="box">
+        <div class="box2">
+            <br> <br>
+            <h4> About me </h4>
+        </div>
+        <br> <br>
+    
+            <div class="img2">
+                <img src="pf.png" class="pic">
+            </div>
+    
+                <p> I'm a student currently doing 'Diploma in CSE'and want to be a Full Stack Developer.<br> I enjoy
+                    taking complex problems and turning them into simple and beatuiful interface designs. I also love 
+                    the logic and structure of coding and always strive to write elegant and effective code,whether it be
+                    HTML or CSS.
+                </p>
+         </div>
+</section>
+
+<section>
+<div class="skill">
+        <div class="skill2">
+            <br> <br>
+            <h4> Skills </h4>
+        </div>
+        <br> 
+        <div class="text"> <i>My creative skills and experiences. </i></div>
+        <h3 class="sub">---What i know---</h3>
+        <br>
+        <div class="write">
+            <ul class="list" type="square">
+                <li> HTML</li>
+                <li> CSS </li>
+                <li> C</li>
+                <li> MS WORD</li>
+                <li> MS PowerPoint</li>
+                <li> Communication </li>
+            </ul>
+           
+        </div>
+</section>
+<section>
+    <div class="Projects"> 
+        <h3 class="heading"> <b> Projects i have made till now! </b> </h3>
+        <br>
+        <h2 class="landing-page"> Landing Page</h2> <br>
+        <img src="stuti.png" class="png"> <br> <br>
+        <a href="https://www.linkedin.com/posts/stuti-singh-616b4b27b_codsoft-codsoftinternship-webdevelopment-activity-7106293499775397888-pFoE?utm_source=share&utm_medium=member_desktop" class="link"> Click here to see full project.</a>
+        <h2 class="page"> Webpage </h2> <br> 
+        <img src="singh.jpeg" class="webpage"> 
+        
+
+     </div>
+</section>
+<br> 
+<section>
+    <div class="contact">
+        <h2 class="me" > Contact </h2>
+        <br> <br>
+        <a href="https://www.linkedin.com/in/stuti-singh-616b4b27b" class="social"> linkedin</a>
+     <br> <br>  <a href="https://www.instagram.com/singh_s25/" class="social"> instagram</a>
+      <br> <br>   <p class="no">  Contact no.- 84******** </p>
+
+    </div>
+</section>
+
+</body>
+</html>
+css
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+    .navbar{
+        background-color:burlywood;
+        height:86px;
+     padding-top: 30px;
+    display: flex;
+}
+a{
+    background-color: burlywood;
+    color:black;
+    margin: 20px;
+    font-style: italic;
+    font-weight:bolder;
+    font-size: larger;
+}
+a:hover{
+    color: red;
+}
+.menu{
+    background-color: burlywood;
+}
+.all{
+    margin-left: 710px;
+    background-color: burlywood;
+}
+.img2{
+    height:40px;
+    width:40px;
+}
+
+
+.content{
+    position: relative;
+    width: 100%;
+     justify-content: space-between;
+    display: flex;
+    padding-top: 180px;
+    padding-left: 40px;
+    
+}
+.content .textbox h2{
+    padding-top: 20px;
+    color:white;
+    font-size: 50px;
+    line-height:  1.4em;
+    font-weight: 300;
+    padding-left: 75px;
+
+}
+.content .textbox span{
+    color:white;
+    font-size:60px;
+    font-weight: 900;
+    padding-left: 75px;
+}
+.content .textbox h1{
+    color:white;
+    font-size:30px;
+    line-height:0.5em;
+    padding-left:75px;
+    padding-top: 5px;
+}
+
+.img{
+    display:flex;
+width: 500px;
+    justify-content:flex-end;
+    padding-right: 120px;
+
+}
+.code{
+    max-width: 500px;
+}
+.box{
+    height:750px;
+    width:900px;
+    
+}
+.box .box2 h4{
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 5px;
+    font-size: 50px;
+    line-height:  1.7em;
+    font-weight: bolder;
+    margin-left: 500px;
+    text-decoration:underline;
+    width: fit-content;
+    background-color: chocolate;
+}
+.img2{
+    margin-top: 70px;
+    padding-left: 80px;
+}
+.pic{
+    max-width: 350px;
+}
+p{
+    font-size: larger;
+    color:black;
+    text-decoration: solid;
+    height:300px;
+    width: 400px;
+    margin-left: 75%;
+    text-decoration: solid;
+    text-align: center;
+    background-color: burlywood;
+    padding-top: 30px;
+}
+.skill{
+    height:700px;
+    width:900px;
+    
+}
+.skill .skill2 h4{
+    background-color: chocolate;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 5px;
+    font-size: 50px;
+    line-height:  1.7em;
+    font-weight: bolder;
+    margin-left: 559px;
+    text-decoration:underline;
+    width: fit-content;
+}
+.text{
+    color:white;
+    margin-left: 53%;
+    font-size:20px;
+}
+.sub{
+    color: white;
+    text-decoration: dotted;
+    margin-left: 62%;
+}
+.write{
+    height:380px;
+    width:100%px;
+}
+.list{
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    margin-left: 110px;
+    margin-top: 60px;
+}
+
+.Projects{
+    height: 1300px;
+     width: 1000px;
+}
+.heading{
+    color:white;
+    text-decoration:underline;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-left: 35%;
+    width: fit-content;
+    background-color: chocolate;
+}
+.landing-page{
+     height:fit-content;
+    width: fit-content;
+    margin-left: 47%;
+    color:white;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    background-color: cadetblue;
+}
+.png{
+    height:500px;
+    width:900px;
+    margin-left: 190px;
+   
+}
+.page{
+    height:fit-content;
+   width: fit-content;
+   margin-left: 52%;
+   color:white;
+   font-size: 50px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-style: oblique;
+   background-color: cadetblue;
+}
+.webpage{
+    height:400px;
+    width:750px;
+    margin-left: 250px;
+}
+.link{
+    color:white;
+    background-color: black;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    margin-left: 45%;
+}
+.link:hover{
+    color: chartreuse;
+}
+.contact{
+    height:400px;
+    width:100%;
+}
+.me{
+    color:white;
+    width: fit-content;
+    background-color: chocolate;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    margin-left: 45%;
+    text-decoration: underline;
+}
+.social{
+    color:black;
+    background-color: azure;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic ;
+    margin-left: 45%;
+    font-size: 35px;
+}
+.no{
+    color:black;
+    background-color: azure;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-left: 45%;
+font-size: 35px;
+font-style: italic;
+text-decoration: underline;
+height: fit-content;
+width: fit-content;
+
+}
