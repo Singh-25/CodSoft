@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body> 
+    <div class="circle"> </div>
+<header> 
+    <div class="navbar">
+        <div class="nav-logo border">
+            <div class="logo" > </div>
+            </div>
+            
+
+            <a href="#"> Home </a>
+            <a href="#"> Gift </a>
+            <a href="#"> Order </a>
+            <a href="#"> Pay </a>
+            <a href="#"> Store </a>
+            
+        
+             <div class="search">
+               <input placeholder="Looking for something?">
+               </div>
+               <div class="sign">
+                <a href="link address"><img src="s.jpeg" height="35px" width="35px"></a>
+               </div>
+               </div>
+
+        
+               </div>
+
+            </div>
+    
+            </header>
+            <div class="content">
+                <div class="textbox">
+                    <h2> It's not just Coffee <br> It's <span> Starbucks </span></h2>
+               <a href="#"> <u> <b> Learn more</b>  </u></a> 
+               
+             </div>
+             <div class="img">
+                <img src="star.png" class="starbucks">
+             </div> 
+            </div>
+             <ul class="cup">
+                <li> <img src="cup1.png"> </li>
+                <li> <img src="cup2.png"> </li>
+                <li> <img src ="cup3.png"></li>
+             </ul>
+             <ul class="logs">
+                <li> <a href="#"> <img src="facebook.png"> </a></li>
+                <li> <a href="#"> <img src="twitter.png"> </a></li>
+                <li> <a href="#"> <img src="instagram.png"> </a></li>
+             </ul>
+
+    
+
+    
+</body>
+</html>
+css
+*{
+    margin:0;
+    padding :0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+   
+}
+.navbar{
+    height: 87px;
+    background-color:white;
+    color:black;
+    padding-top: 20px;
+    display:flex;
+}
+.nav-logo{
+    height: 40px;
+    width: 40px;
+    padding-left: 80px;
+}
+.logo{ 
+    background-image: url("images2.png");
+    height: 70px;
+    width:70px;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    margin-left: 93px;
+    padding-top: 14px;
+}
+.search{
+    margin-left: 220px;
+    padding-top: 10px;
+    display: flex;
+    width: 264px;
+    height:36px;
+
+}
+.sign{
+    padding:12px;
+    padding-right: 76px;
+}
+.placeholder{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding-top: 6px;
+    width:264;
+}
+.content{
+    position: relative;
+    width: 100%;
+justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+.content .textbox h2{
+    color:#333;
+    font-size: 4em;
+    line-height:  1.4em;
+    font-weight: 500;
+    padding-left: 70px;
+    padding-bottom: 50px;
+
+
+}
+.content .textbox h2 span{
+    color:green;
+    font-size: 1.2em;
+    font-weight: 900;
+    padding-left: 0px;
+    padding-bottom: 59px;
+
+
+}
+.content .textbox p{
+    color:#333;
+    padding-bottom: 50px;
+    
+}
+.content .textbox a{
+    display: inline-block;
+    margin-top: 0px;
+    padding:10px 23px;
+    background: green;
+    color:white;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.img{
+    display: flex;
+    width: 550px;
+    justify-content: flex-end;
+    padding-right: 100px;
+    margin-top: 50px;
+
+}
+.starbucks{
+    max-width: 300px;
+}
+.cup{
+    position: absolute;
+    display: flex;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+}
+.cup li{
+    display: inline-block;
+    margin: 0 27px;
+    cursor:pointer;
+    transition: 0.7s;
+    align-items:end;
+
+}
+.cup li:hover{
+    transform: translate(-20px);
+
+}
+.cup li img{
+    max-width: 46px;
+}
+.logs{
+    position: absolute;
+    top: 45%;
+    right:10px;
+     align-items: center ;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    transform: translate(-50%);
+    
+}
+.logs li{
+    list-style: none;
+}
+.logs li a{
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.5);
+    filter: invert(1);
+}
+.circle{
+    position: absolute;
+    width:100%;
+    background: green;
+    height:100%;
+    clip-path:circle(600px at right 800px);
+
+
+}
